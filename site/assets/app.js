@@ -51,7 +51,7 @@ $('close-word').onclick = closeWord;
 $('word-dialog').addEventListener('cancel', e => { e.preventDefault(); closeWord(); });
 $('word-dialog').addEventListener('click', e => { if (e.target === $('word-dialog')) { const r = e.target.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) closeWord(); } });
 $('copy-link').onclick = async () => { if (!currentWord) return; const link = new URL(location.href); link.search = stateQuery({ ...readState(''), word: currentWord.id }); link.hash = ''; try { await navigator.clipboard.writeText(link.href); $('copy-status').textContent = 'コピーしました'; } catch { $('fallback-link').hidden = false; $('fallback-link').value = link.href; $('fallback-link').select(); $('copy-status').textContent = '下のURLをコピーしてください'; } };
-$('about-button').onclick = () => $('about-dialog').showModal(); $('close-about').onclick = () => $('about-dialog').close();
+$('about-button').onclick = () => $('about-dialog').showModal(); $('close-about').onclick = () => $('about-dialog').close(); $('about-text').textContent = config.about;
 $('query').addEventListener('input', () => { if (ready) change({ q: $('query').value }); });
 $('pos').onchange = () => change({ pos: $('pos').value }); $('sort').onchange = () => change({ sort: $('sort').value });
 for (const n of document.querySelectorAll('[name=mode]')) n.onchange = () => change({ mode: n.value });

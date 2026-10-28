@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="単語・意味・タグから引ける人工言語の辞書。">
+<meta name="color-scheme" content="light">
+<title>辞書</title>
+<link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./assets/style.css">
+<script type="module" src="./assets/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#results-title">検索結果へ</a>
+<header class="header"><a class="brand" href="./"><span class="brand-icon" aria-hidden="true">辞</span><span id="site-name">辞書</span></a><nav aria-label="メイン"><a href="#dictionary">辞書</a><button id="about-button" class="text-button">この辞典について ↗</button></nav></header>
+<main>
+<section class="hero" aria-labelledby="hero-title"><div><p class="eyebrow">DICTIONARY</p><h1 id="hero-title">辞書</h1><p id="site-description" class="lead">単語・意味・タグから検索できます。</p></div><div class="stats"><span id="total" class="stat-number">—</span><span>収録語</span><div class="stats-line"></div><span><b id="tag-total">—</b> のタグ</span></div></section>
+<section class="search-area" aria-label="単語検索"><label class="search-box" for="query"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="query" type="search" placeholder="単語・日本語の意味・発音を検索" autocomplete="off" spellcheck="false"><kbd aria-hidden="true">/</kbd></label><p class="search-hint">空白で区切ると、すべてのキーワードを含む語を検索します。</p></section>
+<div class="workspace" id="dictionary">
+<aside class="filters" aria-label="絞り込み"><div class="filter-heading"><h2>絞り込み</h2><button id="reset" class="text-button">リセット</button></div><label class="field-label" for="pos">品詞</label><select id="pos"><option value="">すべての品詞</option></select><div class="filter-heading tags-heading"><h3>タグ</h3><span class="small">複数選択可</span></div><label class="sr-only" for="tag-query">タグを検索</label><input id="tag-query" type="search" placeholder="タグを探す" autocomplete="off"><fieldset class="match-mode"><legend class="sr-only">タグの一致条件</legend><label><input type="radio" name="mode" value="all" checked> すべて一致</label><label><input type="radio" name="mode" value="any"> どれか一致</label></fieldset><div id="tag-list" class="tag-list"></div><p id="tag-empty" class="small" hidden>一致するタグはありません。</p><p class="filter-note">タグで単語を絞り込めます。</p></aside>
+<section class="results"><div class="results-heading"><h2 id="results-title" tabindex="-1">すべてのことば <span id="result-count" aria-live="polite">読み込み中…</span></h2><label class="sort-label">並び順 <select id="sort"><option value="form">綴り順</option><option value="updated">更新日の新しい順</option></select></label></div><div id="active-filters" class="active-filters" aria-label="選択したタグ"></div><div id="message" class="message" role="status" hidden></div><div id="cards" class="cards"></div><nav class="pagination" aria-label="検索結果のページ"><button id="prev" class="outline" disabled>← 前へ</button><span id="page-status">—</span><button id="next" class="outline" disabled>次へ →</button></nav></section>
+</div>
+</main>
+<footer><span id="footer-name">辞書</span><a id="repo-link" hidden target="_blank" rel="noopener noreferrer">ソースを読む ↗</a></footer>
+<dialog id="word-dialog" aria-labelledby="word-title"><div class="dialog-top"><span class="eyebrow">DICTIONARY ENTRY</span><button id="close-word" class="icon-button" aria-label="単語の詳細を閉じる">×</button></div><div id="word-body"></div><div class="dialog-bottom"><button id="copy-link" class="outline">この単語のリンクをコピー</button><span id="copy-status" role="status"></span></div><input id="fallback-link" aria-label="コピーするリンク" readonly hidden></dialog>
+<dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-top"><span class="eyebrow">ABOUT</span><button id="close-about" class="icon-button" aria-label="説明を閉じる">×</button></div><h2 id="about-title">この辞典について</h2><p id="about-text" class="paragraph"></p><p class="small">検索欄で単語や日本語の意味を検索できます。タグは複数選択でき、単語を開くと発音・例文・関連語を確認できます。</p></dialog>
+<noscript><p class="message">この辞書の検索・表示にはJavaScriptを有効にしてください。</p></noscript>
+</body></html>

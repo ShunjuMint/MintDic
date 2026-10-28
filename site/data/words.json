@@ -1,1 +1,25 @@
-[]
+[
+    {
+        "id": "1",
+        "form": "tum",
+        "reading": "トゥム",
+        "ipa": "tum",
+        "pos": "名詞",
+        "meanings": [
+            "言語"
+        ],
+        "tags": [
+            "概念"
+        ],
+        "examples": [
+            {
+                "text": "sample text",
+                "translation": "これはサンプルテキスト"
+            }
+        ],
+        "related": [],
+        "etymology": "語源の説明",
+        "notes": "サンプル補足",
+        "updated": "2026-10-29"
+    }
+]

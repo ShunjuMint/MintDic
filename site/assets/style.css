@@ -926,3 +926,36 @@ dialog::backdrop {
     scroll-behavior: auto !important;
   }
 }
+#about-dialog .dialog-top {
+  gap: 16px;
+  align-items: center;
+}
+
+#about-dialog #about-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#about-dialog #close-about {
+  flex-shrink: 0;
+}
+
+#about-dialog #about-text {
+  margin: 0;
+  line-height: 1.9;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+#about-dialog .dialog-bottom {
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+#about-dialog form {
+  margin: 0;
+}

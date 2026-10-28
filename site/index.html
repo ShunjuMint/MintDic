@@ -26,8 +26,8 @@
     <main>
 
         <section class="search-area" aria-labelledby="search-title">
-            <h1 id="search-title">単語を検索する</h1><label class="search-box" for="query"><svg viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <h1 id="search-title">単語を検索する</h1><label class="search-box" for="query"><svg viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.6" aria-hidden="true">
                     <circle cx="10.5" cy="10.5" r="6.5" />
                     <path d="m16 16 5 5" />
                 </svg><input id="query" type="search" placeholder="検索" aria-label="検索" autocomplete="off"
@@ -88,9 +88,19 @@
                 role="status"></span></div><input id="fallback-link" aria-label="コピーするリンク" readonly hidden>
     </dialog>
     <dialog id="about-dialog" aria-labelledby="about-title">
-        <h2 id="about-title">この辞書について</h2>
-        </p><p class="small">春秋みんとの創作の為の人工言語の為の辞書です</p></dialog>
+        <div class="dialog-top">
+            <h2 id="about-title">この辞書について</h2>
+
+            <button id="close-about" class="icon-button" type="button" aria-label="説明を閉じる">×</button>
+        </div>
+
         <p id="about-text" class="paragraph"></p>
+
+        <div class="dialog-bottom">
+            <form method="dialog">
+                <button class="outline" type="submit">閉じる</button>
+            </form>
+        </div>
     </dialog>
     <noscript>
         <p class="message">この辞書の検索・表示にはJavaScriptを有効にしてください。</p>

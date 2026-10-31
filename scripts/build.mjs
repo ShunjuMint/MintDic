@@ -1,8 +1,10 @@
 import {cp,mkdir,rm,writeFile} from 'node:fs/promises';
 import {loadAndValidate} from './validate.mjs';
-await loadAndValidate();
+const {words,classes}=await loadAndValidate();
 const output=new URL('../dist/',import.meta.url);
 await rm(output,{recursive:true,force:true});await mkdir(output,{recursive:true});
 await cp(new URL('../site/',import.meta.url),output,{recursive:true});
+await writeFile(new URL('data/words.json',output),JSON.stringify(words,null,2)+'\n');
+await writeFile(new URL('data/classes.json',output),JSON.stringify(classes,null,2)+'\n');
 await writeFile(new URL('.nojekyll',output),'');
 console.log('dist/ に公開ファイルを生成しました');

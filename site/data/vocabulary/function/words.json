@@ -1,3 +1,86 @@
 [
-  
+  {
+    "id": "w-092e4a45bd81496facc636ad4cf3b640",
+    "form": "ar",
+    "reading": "ｱﾙ",
+    "ipa": "al",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "主格"
+    ],
+    "tags": [
+      "名詞機能語"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-04",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-1991b4e408b94e2b8b242062ce559a7e",
+    "form": "tas",
+    "reading": "ﾀｽ",
+    "ipa": "tas",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "対格"
+    ],
+    "tags": [
+      "名詞機能語"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-04",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-5b911bb70dca449b8ed32967e1d6a76c",
+    "form": "ca",
+    "reading": "ｶ",
+    "ipa": "ka",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "与格"
+    ],
+    "tags": [
+      "名詞機能語"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-04",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-b4877872e9574edb82ef9c0378e94453",
+    "form": "vu",
+    "reading": "ｳﾞ",
+    "ipa": "vu",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "属格"
+    ],
+    "tags": [
+      "名詞機能語"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-04",
+    "examples": [
+      
+    ]
+  }
 ]

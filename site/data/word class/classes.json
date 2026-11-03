@@ -2,5 +2,21 @@
   {
     "id": "noun",
     "name": "名詞"
+  },
+  {
+    "id": "verb",
+    "name": "動詞"
+  },
+  {
+    "id": "modifier",
+    "name": "修飾詞"
+  },
+  {
+    "id": "conjunction",
+    "name": "接続詞"
+  },
+  {
+    "id": "function",
+    "name": "機能詞"
   }
 ]

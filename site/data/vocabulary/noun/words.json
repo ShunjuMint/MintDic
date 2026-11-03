@@ -19,5 +19,70 @@
     "examples": [
       
     ]
+  },
+  {
+    "id": "w-bc7480a1b76743aeac971d525b646e8c",
+    "form": "re",
+    "reading": "ﾚ",
+    "ipa": "le",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "一人称名詞",
+      "私"
+    ],
+    "tags": [
+      "人称"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-02",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-5b4fa3a6969f4df2889dc6f42bde4a2f",
+    "form": "meu",
+    "reading": "ﾒｳ",
+    "ipa": "meu",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "二人称名詞",
+      "あなた"
+    ],
+    "tags": [
+      "人称"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-03",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-c41e9eae4b98459c98fbe591a6bca7fc",
+    "form": "sa",
+    "reading": "ｻ",
+    "ipa": "sa",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "三人称名詞"
+    ],
+    "tags": [
+      "人称"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-02",
+    "examples": [
+      
+    ]
   }
 ]

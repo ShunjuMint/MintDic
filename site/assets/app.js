@@ -1,8 +1,20 @@
+import {classColors} from './appearance.js';
 import {prepareWords,searchWords,readState,stateQuery,normalize} from './core.js';
 const $=id=>document.getElementById(id);
 const el=(tag,text,className)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;};
 const button=(text,className,action)=>{const n=el('button',text,className);n.type='button';n.addEventListener('click',action);return n;};
 const PAGE_SIZE=24;
+const posColors=new Map();
+function applyPosColor(node,name){
+  const colors=classColors(posColors.get(name));
+  node.style.setProperty('--pos-background',colors.background);
+  node.style.setProperty('--pos-foreground',colors.foreground);
+}
+function posBadge(name){const node=el('span',name||'未分類','pos-badge');applyPosColor(node,name);return node;}
+function updatePosSelect(){
+  if($('pos').value)applyPosColor($('pos'),$('pos').value);
+  else{ $('pos').style.removeProperty('--pos-background');$('pos').style.removeProperty('--pos-foreground'); }
+}
 let words=[], state=readState(location.search), currentWord=null, ready=false;
 function syncURL(){const query=stateQuery(state);history.replaceState(null,'',location.pathname+(query?'?'+query:'')+location.hash);}
 function change(values){Object.assign(state,values,{page:1});render();syncURL();}
@@ -14,7 +26,7 @@ function render(){
   $('cards').replaceChildren();
   const start=(state.page-1)*PAGE_SIZE;
   for(const [i,w] of results.slice(start,start+PAGE_SIZE).entries()){
-    const card=el('article',undefined,'word-card');const top=el('div',undefined,'card-top');top.append(el('span',w.pos||'未分類','pos-badge'),el('span',String(start+i+1).padStart(3,'0'),'word-number'));
+    const card=el('article',undefined,'word-card');const top=el('div',undefined,'card-top');top.append(posBadge(w.pos),el('span',String(start+i+1).padStart(3,'0'),'word-number'));
     const open=button('','word-open',()=>openWord(w.id));open.append(el('h3',w.form));open.setAttribute('aria-label',`${w.form} の詳細を開く`);
     const tags=el('div',undefined,'card-tags');w.tags.forEach(t=>tags.append(tagChip(t)));
     card.append(top,open,el('p',w.ipa?`/${w.ipa}/`:w.reading||'','pronunciation'),el('p',w.meanings.slice(0,2).join(' / ')+(w.meanings.length>2?' …':''),'meaning'),tags);$('cards').append(card);
@@ -26,7 +38,7 @@ function render(){
   if(!results.length)$('message').textContent=words.length?'一致する単語はありません。':'まだ単語が登録されていません。';
 }
 function controls(){
-  $('query').value=state.q;$('pos').value=state.pos;$('sort').value=state.sort;
+  $('query').value=state.q;$('pos').value=state.pos;updatePosSelect();$('sort').value=state.sort;
   document.querySelectorAll('[name=mode]').forEach(n=>n.checked=n.value===state.mode);
 }
 function section(title,node){const s=el('section',undefined,'detail-section');s.append(el('h3',title),node);return s;}
@@ -34,7 +46,7 @@ function openWord(id,writeURL=true){
   const w=words.find(w=>w.id===id);
   if(!w){state.word='';if($('word-dialog').open)$('word-dialog').close();if(writeURL)syncURL();$('message').textContent='指定された単語は見つかりませんでした。';$('message').hidden=false;return;}
   currentWord=w;state.word=w.id;const body=$('word-body');body.replaceChildren();
-  const title=el('h2',w.form);title.id='word-title';body.append(el('span',w.pos||'未分類','pos-badge'),title);
+  const title=el('h2',w.form);title.id='word-title';body.append(posBadge(w.pos),title);
   if(w.ipa||w.reading)body.append(el('p',[w.ipa?`/${w.ipa}/`:'',w.reading].filter(Boolean).join('  ·  '),'pronunciation'));
   const meanings=el('ol');w.meanings.forEach(m=>meanings.append(el('li',m)));body.append(section('意味',meanings));
   if(w.tags.length){const tags=el('div',undefined,'card-tags');w.tags.forEach(t=>tags.append(tagChip(t)));body.append(section('タグ',tags));}
@@ -53,7 +65,7 @@ $('word-dialog').addEventListener('click',e=>{if(e.target===$('word-dialog')){co
 $('copy-link').onclick=async()=>{if(!currentWord)return;const link=new URL(location.href);link.search=stateQuery({...readState(''),word:currentWord.id});link.hash='';try{await navigator.clipboard.writeText(link.href);$('copy-status').textContent='コピーしました';}catch{$('fallback-link').hidden=false;$('fallback-link').value=link.href;$('fallback-link').select();$('copy-status').textContent='下のURLをコピーしてください';}};
 $('about-button').onclick=()=>$('about-dialog').showModal();$('close-about').onclick=()=>$('about-dialog').close();
 $('query').addEventListener('input',()=>{if(ready)change({q:$('query').value});});
-$('pos').onchange=()=>change({pos:$('pos').value});$('sort').onchange=()=>change({sort:$('sort').value});
+$('pos').onchange=()=>{updatePosSelect();change({pos:$('pos').value});};$('sort').onchange=()=>change({sort:$('sort').value});
 for(const n of document.querySelectorAll('[name=mode]'))n.onchange=()=>change({mode:n.value});
 $('reset').onclick=()=>{state=readState('');controls();$('tag-query').value='';filterTags();render();syncURL();};
 function filterTags(){const q=normalize($('tag-query').value);let visible=0;document.querySelectorAll('.tag-filter').forEach(b=>{b.hidden=!normalize(b.dataset.tag).includes(q);if(!b.hidden)visible++;});$('tag-empty').hidden=visible>0;}
@@ -63,15 +75,16 @@ window.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA','SELE
 window.addEventListener('popstate',()=>{if(!ready)return;state=readState(location.search);controls();render();if(state.word)openWord(state.word,false);else if($('word-dialog').open)$('word-dialog').close();});
 async function loadJSON(path){const r=await fetch(new URL(path,document.baseURI),{cache:'no-cache'});if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}
 try{
-  const [config,data]=await Promise.all([loadJSON('./data/config.json'),loadJSON('./data/words.json')]);
+  const [config,data,classes]=await Promise.all([loadJSON('./data/config.json'),loadJSON('./data/words.json'),loadJSON('./data/classes.json')]);
+  classes.forEach(c=>posColors.set(c.name,c.color));
   words=prepareWords(data);$('site-name').textContent=config.title;document.title=config.title;
-  $('about-text').textContent=typeof config.about==='string' && config.about.trim()?config.about:'説明はまだ登録されていません。';document.querySelector('meta[name="description"]').content=config.description;
+  $('about-text').textContent=typeof config.about==='string' && config.about.trim()?config.about:'説明はまだ登録されていません。';document.querySelector('meta[name="description"]').content=config.description??'';
   $('total').textContent=words.length.toLocaleString();
   const tags=new Map();words.forEach(w=>w.tags.forEach(t=>tags.set(t,(tags.get(t)||0)+1)));
   $('tag-total').textContent=tags.size;
   for(const [tag,count] of [...tags].sort(([a],[b])=>a.localeCompare(b,'ja'))){const b=button('','tag-filter',()=>toggleTag(tag));b.dataset.tag=tag;b.setAttribute('aria-pressed','false');b.append(el('span','# '+tag,'tag-name'),el('span',count,'tag-number'));$('tag-list').append(b);}
-  const positions=new Set(words.map(w=>w.pos).filter(Boolean));if(state.pos)positions.add(state.pos);
-  for(const pos of [...positions].sort((a,b)=>a.localeCompare(b,'ja'))){const o=el('option',pos);o.value=pos;$('pos').append(o);}
+  const positions=new Set(classes.map(c=>c.name));if(state.pos)positions.add(state.pos);
+  for(const pos of [...positions].sort((a,b)=>a.localeCompare(b,'ja'))){const o=el('option',pos);o.value=pos;applyPosColor(o,pos);$('pos').append(o);}
   if(config.repositoryUrl){const url=new URL(config.repositoryUrl);if(url.protocol==='https:'&&url.hostname==='github.com'){$('repo-link').href=url.href;$('repo-link').hidden=false;$('site-footer').hidden=false;}}
   ready=true;controls();render();if(state.word)openWord(state.word,false);syncURL();
 }catch(error){$('about-text').textContent='説明を読み込めませんでした。ページを再読み込みしてください。';console.error(error);$('result-count').textContent='読み込みエラー';$('message').hidden=false;$('message').textContent='辞書を読み込めませんでした。\nページを再読み込みしてください。ファイルを直接開いている場合は、READMEのプレビュー手順をご確認ください。';}

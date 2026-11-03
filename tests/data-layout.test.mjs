@@ -74,6 +74,22 @@ test(
         '名詞'
       );
 
+      // 色の設定を保持し、不正なカラーコードを拒否する
+      await write('word%20class/classes.json', [
+        { id: 'noun', name: '名詞', color: '#C9F2C7' },
+        { id: 'verb', name: '動詞', color: '' }
+      ]);
+      assert.equal((await loadAndValidate(root)).classes[0].color, '#C9F2C7');
+      await write('word%20class/classes.json', [
+        { id: 'noun', name: '名詞', color: 'red' },
+        { id: 'verb', name: '動詞' }
+      ]);
+      await assert.rejects(loadAndValidate(root), /color/);
+      await write('word%20class/classes.json', [
+        { id: 'noun', name: '名詞' },
+        { id: 'verb', name: '動詞' }
+      ]);
+
       // 存在しない関連語を拒否する
       await write('vocabulary/verb/words.json', []);
 

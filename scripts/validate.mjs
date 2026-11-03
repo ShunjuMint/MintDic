@@ -36,6 +36,7 @@ export async function loadAndValidate(root=new URL('../site/data/',import.meta.u
   if(!c||typeof c.id!=='string'||!/^[a-z0-9][a-z0-9_-]*$/.test(c.id)||/^(con|prn|aux|nul|com[0-9]|lpt[0-9])$/.test(c.id))throw new Error('品詞IDは安全な半角小文字英数字・ハイフン・アンダースコアにしてください');
   if(typeof c.name!=='string'||!c.name.trim()||c.name!==c.name.trim())throw new Error('品詞名は前後に空白のない文字列にしてください');
   if(ids.has(c.id)||names.has(c.name))throw new Error('品詞IDまたは品詞名が重複しています');
+  if(c.color!==undefined&&c.color!==''&&(typeof c.color!=='string'||!/^#[0-9a-f]{6}$/i.test(c.color)))throw new Error(`${c.id}: color は #RRGGBB のカラーコードにしてください`);
   ids.add(c.id);names.add(c.name);
  }
  const entries=await readdir(new URL('vocabulary/',root),{withFileTypes:true});

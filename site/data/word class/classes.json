@@ -2,26 +2,26 @@
   {
     "id": "noun",
     "name": "名詞",
-    "color": "#C9F2C7"
+    "color": "#FFB5B5"
   },
   {
     "id": "verb",
     "name": "動詞",
-    "color": "#629460"
+    "color": "#B5DBFF"
   },
   {
     "id": "modifier",
     "name": "修飾詞",
-    "color": "#ACECA1"
+    "color": "#FFB5F5"
   },
   {
     "id": "conjunction",
     "name": "接続詞",
-    "color": "#96BE8C"
+    "color": "#FFE9B5"
   },
   {
     "id": "function",
     "name": "機能詞",
-    "color": "#243119"
+    "color": "#E1B5FF"
   }
 ]

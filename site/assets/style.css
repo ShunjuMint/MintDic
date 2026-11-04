@@ -679,8 +679,11 @@ dialog::backdrop {
 
 @media(max-width:700px) {
   .header {
-    height: 76px;
-    padding: 0 20px;
+    height: auto;
+    min-height: 76px;
+    padding: 16px 20px;
+    flex-wrap: wrap;
+    gap: 8px 16px;
   }
 
   .brand-icon {
@@ -693,8 +696,13 @@ dialog::backdrop {
     gap: 16px;
   }
 
+  .header nav {
+    flex-wrap: wrap;
+    gap: 8px 16px;
+  }
+
   .header nav>a {
-    display: none;
+    display: inline-block;
   }
 
   main {

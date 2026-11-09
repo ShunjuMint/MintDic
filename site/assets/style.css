@@ -24,6 +24,8 @@
   --font-size-heading: 1.5rem;
   --font-size-word: 1.75rem;
   --font-size-detail: 2.25rem;
+  --font-size-language-word: 2.5rem;
+  --font-size-language-detail: 3.25rem;
   --font-size-romanization: 1.5rem;
   --font-size-romanization-detail: 2rem;
   --font-size-icon: 1.5rem;
@@ -411,9 +413,9 @@ select,#tag-query {
 
 .word-open h3 {
   font-family: var(--font-family-TumRare);
-  font-size: var(--font-size-word);
+  font-size: var(--font-size-language-word);
   font-weight: 400;
-  letter-spacing: .015em;
+  letter-spacing: normal;
   line-height: 1.25;
 }
 
@@ -555,7 +557,7 @@ dialog::backdrop {
 
 #word-title {
   font-family: var(--font-family-TumRare);
-  font-size: var(--font-size-detail);
+  font-size: var(--font-size-language-detail);
   font-weight: 400;
   overflow-wrap: anywhere;
 }
@@ -969,6 +971,10 @@ dialog::backdrop {
 
 .language-script {
   font-family: var(--font-family-TumRare);
+  /* 文字間隔の追加は標準合字を妨げるため、normal に保ちます。 */
+  letter-spacing: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-feature-settings: "liga" 1, "clig" 1, "calt" 1;
   overflow-wrap: anywhere;
 }
 

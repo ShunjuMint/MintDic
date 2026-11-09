@@ -24,6 +24,8 @@
   --font-size-heading: 1.5rem;
   --font-size-word: 1.75rem;
   --font-size-detail: 2.25rem;
+  --font-size-romanization: 1.5rem;
+  --font-size-romanization-detail: 2rem;
   --font-size-icon: 1.5rem;
   font-size: 100%;
 }
@@ -959,10 +961,7 @@ dialog::backdrop {
    ファイル名を変更する場合は、下記の URL も変更してください。 */
 @font-face {
   font-family: "TumRare";
-  src: url("./fonts/TumRare.woff2") format("woff2"),
-       url("./fonts/TumRare.woff") format("woff"),
-       url("./fonts/TumRare.ttf") format("truetype"),
-       url("./fonts/TumRare.otf") format("opentype");
+  src: url("./fonts/TumRare.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -977,9 +976,13 @@ dialog::backdrop {
   display: block;
   margin-top: 6px;
   font-family: inherit;
-  font-size: var(--font-size-body);
+  font-size: var(--font-size-romanization);
   font-weight: 400;
   line-height: 1.6;
   color: var(--muted);
   overflow-wrap: anywhere;
+}
+
+#word-body > .romanization {
+  font-size: var(--font-size-romanization-detail);
 }

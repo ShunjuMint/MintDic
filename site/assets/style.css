@@ -2,7 +2,7 @@
    small: 補足 / label: ラベル / body: 本文 / section: 小見出し
    heading: 見出し / word: 単語 / detail: 詳細の単語 / icon: アイコン */
 :root {
-  --font-family-language: "Language", "M PLUS 2", sans-serif;
+  --font-family-TumRare: "TumRare", "M PLUS 2", sans-serif;
   --paper: #fbfdf9;
   --ink: #243119;
   --muted: #667560;
@@ -408,7 +408,7 @@ select,#tag-query {
 }
 
 .word-open h3 {
-  font-family: var(--font-family-language);
+  font-family: var(--font-family-TumRare);
   font-size: var(--font-size-word);
   font-weight: 400;
   letter-spacing: .015em;
@@ -552,7 +552,7 @@ dialog::backdrop {
 }
 
 #word-title {
-  font-family: var(--font-family-language);
+  font-family: var(--font-family-TumRare);
   font-size: var(--font-size-detail);
   font-weight: 400;
   overflow-wrap: anywhere;
@@ -958,18 +958,18 @@ dialog::backdrop {
    ラテン文字の form を言語文字の字形に置き換えるフォント用です。
    ファイル名を変更する場合は、下記の URL も変更してください。 */
 @font-face {
-  font-family: "Language";
-  src: url("./fonts/language.woff2") format("woff2"),
-       url("./fonts/language.woff") format("woff"),
-       url("./fonts/language.ttf") format("truetype"),
-       url("./fonts/language.otf") format("opentype");
+  font-family: "TumRare";
+  src: url("./fonts/TumRare.woff2") format("woff2"),
+       url("./fonts/TumRare.woff") format("woff"),
+       url("./fonts/TumRare.ttf") format("truetype"),
+       url("./fonts/TumRare.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 
 .language-script {
-  font-family: var(--font-family-language);
+  font-family: var(--font-family-TumRare);
   overflow-wrap: anywhere;
 }
 

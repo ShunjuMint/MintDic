@@ -1,3 +1,5 @@
+import {loadLanguageFont} from './language-font.js';
+void loadLanguageFont();
 import {classColors} from './appearance.js';
 import {prepareWords,searchWords,readState,stateQuery,normalize} from './core.js';
 const $=id=>document.getElementById(id);

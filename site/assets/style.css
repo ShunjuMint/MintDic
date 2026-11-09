@@ -970,6 +970,7 @@ dialog::backdrop {
 }
 
 .language-script {
+  opacity: 0;
   font-family: var(--font-family-TumRare);
   /* 文字間隔の追加は標準合字を妨げるため、normal に保ちます。 */
   letter-spacing: normal;
@@ -991,4 +992,9 @@ dialog::backdrop {
 
 #word-body > .romanization {
   font-size: var(--font-size-romanization-detail);
+}
+
+/* 読み込み中も表示領域とアクセシブルな名前を維持します。 */
+.language-font-ready .language-script {
+  opacity: 1;
 }

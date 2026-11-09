@@ -24,8 +24,8 @@
   --font-size-heading: 1.5rem;
   --font-size-word: 1.75rem;
   --font-size-detail: 2.25rem;
-  --font-size-language-word: 2.5rem;
-  --font-size-language-detail: 3.25rem;
+  --font-size-language-word: 3.5rem;
+  --font-size-language-detail: 4.5rem;
   --font-size-romanization: 1.5rem;
   --font-size-romanization-detail: 2rem;
   --font-size-icon: 1.5rem;
@@ -412,7 +412,7 @@ select,#tag-query {
 }
 
 .word-open h3 {
-  font-family: var(--font-family-TumRare);
+  font-family: inherit;
   font-size: var(--font-size-language-word);
   font-weight: 400;
   letter-spacing: normal;
@@ -556,7 +556,7 @@ dialog::backdrop {
 }
 
 #word-title {
-  font-family: var(--font-family-TumRare);
+  font-family: inherit;
   font-size: var(--font-size-language-detail);
   font-weight: 400;
   overflow-wrap: anywhere;
@@ -970,6 +970,7 @@ dialog::backdrop {
 }
 
 .language-script {
+  opacity: 0;
   font-family: var(--font-family-TumRare);
   /* 文字間隔の追加は標準合字を妨げるため、normal に保ちます。 */
   letter-spacing: normal;
@@ -979,8 +980,6 @@ dialog::backdrop {
 }
 
 .romanization {
-  display: block;
-  margin-top: 6px;
   font-family: inherit;
   font-size: var(--font-size-romanization);
   font-weight: 400;
@@ -989,6 +988,32 @@ dialog::backdrop {
   overflow-wrap: anywhere;
 }
 
-#word-body > .romanization {
+#word-title .romanization {
   font-size: var(--font-size-romanization-detail);
+}
+
+/* 読み込み中も表示領域とアクセシブルな名前を維持します。 */
+.language-font-ready .language-script {
+  opacity: 1;
+}
+
+/* 文法書と同様、独自文字の上にラテン文字転写をルビとして配置します。 */
+.language-text {
+  ruby-position: over;
+  ruby-align: center;
+  vertical-align: baseline;
+}
+.language-text > .language-script,
+.language-text > .romanization {
+  line-height: 1;
+}
+.language-text > .romanization {
+  text-align: center;
+}
+.word-open h3, #word-title {
+  padding-top: var(--font-size-romanization);
+  line-height: 1.2;
+}
+#word-title {
+  padding-top: var(--font-size-romanization-detail);
 }

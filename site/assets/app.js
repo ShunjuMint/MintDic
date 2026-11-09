@@ -27,7 +27,7 @@ function render(){
   const start=(state.page-1)*PAGE_SIZE;
   for(const [i,w] of results.slice(start,start+PAGE_SIZE).entries()){
     const card=el('article',undefined,'word-card');const top=el('div',undefined,'card-top');top.append(posBadge(w.pos),el('span',String(start+i+1).padStart(3,'0'),'word-number'));
-    const open=button('','word-open',()=>openWord(w.id));open.append(el('h3',w.form));open.setAttribute('aria-label',`${w.form} の詳細を開く`);
+    const open=button('','word-open',()=>openWord(w.id));open.append(el('h3',w.form,'language-script'),el('span',w.form,'romanization'));open.setAttribute('aria-label',`${w.form} の詳細を開く`);
     const tags=el('div',undefined,'card-tags');w.tags.forEach(t=>tags.append(tagChip(t)));
     card.append(top,open,el('p',w.ipa?`/${w.ipa}/`:w.reading||'','pronunciation'),el('p',w.meanings.slice(0,2).join(' / ')+(w.meanings.length>2?' …':''),'meaning'),tags);$('cards').append(card);
   }
@@ -46,7 +46,7 @@ function openWord(id,writeURL=true){
   const w=words.find(w=>w.id===id);
   if(!w){state.word='';if($('word-dialog').open)$('word-dialog').close();if(writeURL)syncURL();$('message').textContent='指定された単語は見つかりませんでした。';$('message').hidden=false;return;}
   currentWord=w;state.word=w.id;const body=$('word-body');body.replaceChildren();
-  const title=el('h2',w.form);title.id='word-title';body.append(posBadge(w.pos),title);
+  const title=el('h2',w.form,'language-script');title.id='word-title';body.append(posBadge(w.pos),title,el('p',w.form,'romanization'));
   if(w.ipa||w.reading)body.append(el('p',[w.ipa?`/${w.ipa}/`:'',w.reading].filter(Boolean).join('  ·  '),'pronunciation'));
   const meanings=el('ol');w.meanings.forEach(m=>meanings.append(el('li',m)));body.append(section('意味',meanings));
   if(w.tags.length){const tags=el('div',undefined,'card-tags');w.tags.forEach(t=>tags.append(tagChip(t)));body.append(section('タグ',tags));}

@@ -963,7 +963,7 @@ dialog::backdrop {
    ファイル名を変更する場合は、下記の URL も変更してください。 */
 @font-face {
   font-family: "TumRare";
-  src: url("./fonts/TumRare.otf") format("opentype");
+  src: url("./fonts/TumRare.otf?v=3c7f7e2ea6b7") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;

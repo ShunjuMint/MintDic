@@ -4,13 +4,15 @@ export function prepareWords(words) {
 }
 export function searchWords(words, state) {
   const tokens = normalize(state.q).trim().split(/\s+/).filter(Boolean);
-  return words.filter(w => tokens.every(t => w._search.includes(t)) && (!state.pos || w.pos === state.pos) &&
-    (!state.tags.length || (state.mode === 'any' ? state.tags.some(t => w.tags.includes(t)) : state.tags.every(t => w.tags.includes(t)))))
-    .sort((a,b) => state.sort === 'updated' ? (b.updated ?? '').localeCompare(a.updated ?? '') || a.form.localeCompare(b.form,'ja') : a.form.localeCompare(b.form,'ja') || a.id.localeCompare(b.id));
+  const results = words.filter(w => tokens.every(t => w._search.includes(t)) && (!state.pos || w.pos === state.pos) &&
+    (!state.tags.length || (state.mode === 'any' ? state.tags.some(t => w.tags.includes(t)) : state.tags.every(t => w.tags.includes(t))))); 
+  if (state.sort === 'updated') results.sort((a,b) => (b.updated ?? '').localeCompare(a.updated ?? '') || a.form.localeCompare(b.form,'ja'));
+  else if (state.sort === 'form') results.sort((a,b) => a.form.localeCompare(b.form,'ja') || a.id.localeCompare(b.id));
+  return results;
 }
 export function readState(search) {
   const p = new URLSearchParams(search);
-  return {q:p.get('q') ?? '', tags:[...new Set(p.getAll('tag'))], pos:p.get('pos') ?? '', mode:p.get('mode') === 'any' ? 'any':'all', sort:p.get('sort') === 'updated' ? 'updated':'form', page: Math.max(1, Math.min(100000, Number.parseInt(p.get('page'),10) || 1)), word:p.get('word') ?? ''};
+  return {q:p.get('q') ?? '', tags:[...new Set(p.getAll('tag'))], pos:p.get('pos') ?? '', mode:p.get('mode') === 'any' ? 'any':'all', sort:['form','updated'].includes(p.get('sort')) ? p.get('sort'):'source', page: Math.max(1, Math.min(100000, Number.parseInt(p.get('page'),10) || 1)), word:p.get('word') ?? ''};
 }
 export function stateQuery(s) {
   const p = new URLSearchParams();
@@ -18,7 +20,7 @@ export function stateQuery(s) {
   s.tags.forEach(t=>p.append('tag',t));
   if(s.pos) p.set('pos',s.pos);
   if(s.mode==='any') p.set('mode','any');
-  if(s.sort==='updated') p.set('sort','updated');
+  if(s.sort==='updated'||s.sort==='form') p.set('sort',s.sort);
   if(s.page>1) p.set('page',String(s.page));
   if(s.word) p.set('word',s.word);
   return p.toString();

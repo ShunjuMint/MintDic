@@ -58,7 +58,7 @@ export async function loadAndValidate(root=new URL('../site/data/',import.meta.u
  for(const c of classes){
   const directory=`vocabulary/${c.id}/`;
   const files=await readdir(new URL(directory,root),{withFileTypes:true});
-  for(const entry of files){
+  for(const entry of files.sort((a,b)=>a.name<b.name?-1:a.name>b.name?1:0)){
    if(entry.name==='.gitkeep'&&entry.isFile())continue;
    if(!entry.isFile()||!entry.name.endsWith('.json'))throw new Error(`語彙フォルダにはJSONファイルだけを置いてください: ${directory}${entry.name}`);
    const batch=await read(directory+encodeURIComponent(entry.name));

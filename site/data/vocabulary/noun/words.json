@@ -84,5 +84,257 @@
     "examples": [
       
     ]
+  },
+  {
+    "id": "w-19a4c0d51fe1473297e042f2c8066ea0",
+    "form": "arum",
+    "reading": "ｱﾙﾑ",
+    "ipa": "alum",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "1"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-41645f2e8dd841408cf1f8fd513bce10",
+    "form": "cas",
+    "reading": "ｶｽ",
+    "ipa": "kas",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "2"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-4860f54267fb467387f76c4859b2dcda",
+    "form": "tvas",
+    "reading": "ﾄｩｳﾞｧｽ",
+    "ipa": "tvas",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "3"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-46ed2b36c1fd4daca322c54e39e718c0",
+    "form": "pris",
+    "reading": "ﾌﾟﾘｽ",
+    "ipa": "plis",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "4"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-2cdb408bf35d46ac99ef8d631cd3a393",
+    "form": "ferii",
+    "reading": "ﾌｪﾘ-",
+    "ipa": "feliː",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "5"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-1955dfa02f5443bdb77494e374f43dc3",
+    "form": "zema",
+    "reading": "ｾﾞﾏ",
+    "ipa": "zema",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "6"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-d746cb295ce44a9a84f93cbdeb8de884",
+    "form": "sobi",
+    "reading": "ｿﾋﾞ",
+    "ipa": "sobi",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "7"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-c5b38bcf30f243fbb38f2899ab20b9b2",
+    "form": "dogi",
+    "reading": "ﾄﾞｷﾞ",
+    "ipa": "doɡi",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "0"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-1aad331374c644b8b8b9616a052321be",
+    "form": "tori",
+    "reading": "ﾄﾘ",
+    "ipa": "toli",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "8"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-bcc8c0b445994a63844fb52aeee5a29b",
+    "form": "homi",
+    "reading": "ﾎﾐ",
+    "ipa": "homi",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "64"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-289ba728dbf043c191dc7b1153245f5c",
+    "form": "tarmuz",
+    "reading": "ﾀﾙﾑｽﾞ",
+    "ipa": "talmuz",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "512"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-511c3ab338234be2ad658cbb1a52a705",
+    "form": "gohec",
+    "reading": "ｺﾞﾍｸ",
+    "ipa": "ɡohek",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "4096"
+    ],
+    "tags": [
+      "数詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-11",
+    "examples": [
+      
+    ]
   }
 ]

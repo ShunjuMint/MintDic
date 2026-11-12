@@ -1,9 +1,9 @@
 [
   {
     "id": "w-092e4a45bd81496facc636ad4cf3b640",
-    "form": "ar",
-    "reading": "ｱﾙ",
-    "ipa": "al",
+    "form": "ad",
+    "reading": "ｱﾄﾞ",
+    "ipa": "ad",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -15,7 +15,7 @@
     "related": [
       
     ],
-    "updated": "2026-11-04",
+    "updated": "2026-11-12",
     "examples": [
       
     ]
@@ -79,6 +79,48 @@
       
     ],
     "updated": "2026-11-04",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-afd08f25c94f4536a77c7101acea943c",
+    "form": "do",
+    "reading": "ﾄﾞ",
+    "ipa": "do",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "完結相"
+    ],
+    "tags": [
+      "動詞機能語"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-13",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-29417a2c37d944f7a20f484b7ba75a05",
+    "form": "ra",
+    "reading": "ﾗ",
+    "ipa": "la",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "非完結相"
+    ],
+    "tags": [
+      "動詞機能語"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-13",
     "examples": [
       
     ]

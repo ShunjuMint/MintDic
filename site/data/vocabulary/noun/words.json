@@ -22,9 +22,9 @@
   },
   {
     "id": "w-bc7480a1b76743aeac971d525b646e8c",
-    "form": "re",
-    "reading": "ﾚ",
-    "ipa": "le",
+    "form": "ce",
+    "reading": "ｹ",
+    "ipa": "ke",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -37,7 +37,7 @@
     "related": [
       
     ],
-    "updated": "2026-11-02",
+    "updated": "2026-11-12",
     "examples": [
       
     ]
@@ -333,6 +333,29 @@
       
     ],
     "updated": "2026-11-11",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-e4574cbb8b5f4be5a70b82cac7d3f7ba",
+    "form": "tumrare",
+    "reading": "ﾄｩﾑﾗﾚ",
+    "ipa": "tumlale",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "Tum Rare",
+      "Tum Rare語",
+      "トゥムラレ語"
+    ],
+    "tags": [
+      "言語"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-12",
     "examples": [
       
     ]

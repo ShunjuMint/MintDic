@@ -124,5 +124,68 @@
     "examples": [
       
     ]
+  },
+  {
+    "id": "w-36954e5543bf49178b04862a6d0432d3",
+    "form": "fos",
+    "reading": "ﾌｫｽ",
+    "ipa": "fos",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "処格"
+    ],
+    "tags": [
+      "名詞機能語"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-14",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-28f06a44bd844c2983123a45719cb9d3",
+    "form": "pum",
+    "reading": "ﾌﾟﾑ",
+    "ipa": "pum",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "奪格"
+    ],
+    "tags": [
+      "名詞機能語"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-14",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-c9510108562644d3babd5eed2e8382ce",
+    "form": "biu",
+    "reading": "ﾋﾞｳ",
+    "ipa": "biu",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "具格"
+    ],
+    "tags": [
+      "名詞機能語"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-14",
+    "examples": [
+      
+    ]
   }
 ]

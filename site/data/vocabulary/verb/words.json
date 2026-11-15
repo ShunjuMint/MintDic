@@ -1,5 +1,28 @@
 [
   {
+    "id": "w-2bebbbd7a5be4f4699bbaa9f43c937af",
+    "form": "sumii",
+    "reading": "ｽﾐ-",
+    "ipa": "sumiː",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "集める",
+      "収集する",
+      "採る"
+    ],
+    "tags": [
+      "第一動詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
     "id": "w-6d4c33d0c9194328bfbf036840373707",
     "form": "vi",
     "reading": "ｳﾞｨ",
@@ -13,12 +36,12 @@
       "～にある"
     ],
     "tags": [
-      "第一動詞"
+      "第二動詞"
     ],
     "related": [
       
     ],
-    "updated": "2026-11-12",
+    "updated": "2026-11-16",
     "examples": [
       
     ]
@@ -31,9 +54,9 @@
     "etymology": "",
     "notes": "",
     "meanings": [
-      "話す",
-      "会話する",
-      "コミュニケーションを取る"
+      "～語を話す",
+      "言う",
+      "伝える"
     ],
     "tags": [
       "第一動詞"
@@ -41,7 +64,142 @@
     "related": [
       
     ],
-    "updated": "2026-11-04",
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-060758a21ba048ce95631d996ce5da7f",
+    "form": "some",
+    "reading": "ｿﾒ",
+    "ipa": "some",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "群がる",
+      "集まる"
+    ],
+    "tags": [
+      "第二動詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-d786041194f74acda479e20cff132af2",
+    "form": "bugi",
+    "reading": "ﾌﾞｷﾞ",
+    "ipa": "bugi",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "聴く",
+      "聞く"
+    ],
+    "tags": [
+      "第一動詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-cfb6dbc0dd6a4e0e89622b02c3e03812",
+    "form": "ravi",
+    "reading": "ﾗｳﾞｨ",
+    "ipa": "lavi",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "会話する",
+      "コミュニケーションを取る"
+    ],
+    "tags": [
+      "第二動詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-297827282dbd47b6a7b0cd9ad11e8211",
+    "form": "morge",
+    "reading": "ﾓﾙｹﾞ",
+    "ipa": "molge",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "食べる",
+      "食する",
+      "摂取する"
+    ],
+    "tags": [
+      "第一動詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-d95b3facfa544d478401f5c25414ea95",
+    "form": "hamee",
+    "reading": "ﾊﾒ-",
+    "ipa": "hameː",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "持つ",
+      "所持する"
+    ],
+    "tags": [
+      "第一動詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-77399350272347f9a339d2e672d55087",
+    "form": "hime",
+    "reading": "ﾋﾒ",
+    "ipa": "hime",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "細工する",
+      "工作する",
+      "作る",
+      "作製する"
+    ],
+    "tags": [
+      "第一動詞"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
     "examples": [
       
     ]

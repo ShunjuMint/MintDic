@@ -297,9 +297,9 @@
   },
   {
     "id": "w-289ba728dbf043c191dc7b1153245f5c",
-    "form": "tarmuz",
-    "reading": "ﾀﾙﾑｽﾞ",
-    "ipa": "talmuz",
+    "form": "tarma",
+    "reading": "ﾀﾙﾏﾞ",
+    "ipa": "talma",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -311,7 +311,7 @@
     "related": [
       
     ],
-    "updated": "2026-11-11",
+    "updated": "2026-11-16",
     "examples": [
       
     ]
@@ -356,6 +356,648 @@
       
     ],
     "updated": "2026-11-12",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-6489670c9038479397bb4bef3cbdf25d",
+    "form": "sami",
+    "reading": "ｻﾐ",
+    "ipa": "sami",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "人間",
+      "人"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-15",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-ec278a75a3b845adbfcbdb491fe9fb81",
+    "form": "nova",
+    "reading": "ﾉｳﾞｧ",
+    "ipa": "nova",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "女性"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-15",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-14d4c5e0f9c64d5ca45ffaeff439cf60",
+    "form": "nocs",
+    "reading": "ﾉｸｽ",
+    "ipa": "noks",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "男性"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-15",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-5b0b2dfc743549d2b01ed5161b429d65",
+    "form": "notu",
+    "reading": "ﾉﾄｩ",
+    "ipa": "notu",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "子供"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-15",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-c9d16b56bf3148dcafc351ff9459f9e8",
+    "form": "nora",
+    "reading": "ﾉﾗ",
+    "ipa": "nola",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "大人"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-15",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-8655ab91b589430a80268dd2786b904d",
+    "form": "peze",
+    "reading": "ﾍﾟｾﾞ",
+    "ipa": "peze",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "親"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-15",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-6f6c00dcaba74bc19ab1eaf1066df424",
+    "form": "peva",
+    "reading": "ﾍﾟｳﾞｧ",
+    "ipa": "peva",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "母親"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-e665720adcd640f1b7153d25f5bf6dd2",
+    "form": "pecs",
+    "reading": "ﾍﾟｸｽ",
+    "ipa": "peks",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "父親"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-94136db7810e4bd4b056558657ab61dd",
+    "form": "petu",
+    "reading": "ﾍﾟﾄｩ",
+    "ipa": "petu",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "息子",
+      "娘"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-4d73b8c0cb0c47deb2a9b1b8965b7eee",
+    "form": "febu",
+    "reading": "ﾌｪﾌﾞ",
+    "ipa": "febu",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "兄弟",
+      "姉妹"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-7620be23ce1e497ba11a9d92613763ab",
+    "form": "pemas",
+    "reading": "ﾍﾟﾏｽ",
+    "ipa": "pemas",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "家族",
+      "世帯"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-9031e7b8484f45339e1eb97c9d8dd63d",
+    "form": "fovu",
+    "reading": "ﾌｫｳﾞ",
+    "ipa": "fovu",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "家",
+      "住まい",
+      "住居"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-9142ffe984fc441eb86af646eaffa83b",
+    "form": "nibe",
+    "reading": "ﾆﾍﾞ",
+    "ipa": "nibe",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "友人"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-e40046143c764222b6c654ace3c1448e",
+    "form": "imes",
+    "reading": "ｲﾒｽ",
+    "ipa": "imes",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "敵"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-17ccb5f0fb4c4f5a89ad26f91133d709",
+    "form": "ubur",
+    "reading": "ｳﾌﾞﾙ",
+    "ipa": "ubul",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "名前"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-156349b3bc3c4c81a9b99656e29a703a",
+    "form": "ami",
+    "reading": "ｱﾐ",
+    "ipa": "ami",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "個人"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-ef98af5e5c3a4fe282df766a54c5962c",
+    "form": "soma",
+    "reading": "ｿﾏ",
+    "ipa": "soma",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "集団",
+      "グループ",
+      "集まり"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-a6d85db52ae14fa68e2bd24eafbb40f1",
+    "form": "sepema",
+    "reading": "ｾﾍﾟﾏ",
+    "ipa": "sepema",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "村",
+      "集落"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-0d3cee1d984f4eb598314ca2af4b51f2",
+    "form": "budu",
+    "reading": "ﾌﾞﾄﾞｩ",
+    "ipa": "budu",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "体",
+      "身体"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-519013efb0bf432c85cb36f0ed7c0faa",
+    "form": "burho",
+    "reading": "ﾌﾞﾙﾎ",
+    "ipa": "bulho",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "頭"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-daef187cdfb44ae286c525fdba93dad2",
+    "form": "buma",
+    "reading": "ﾌﾞﾏ",
+    "ipa": "buma",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "顔"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-be857b1bb4c44f9cb05e4d85cca90735",
+    "form": "bugu",
+    "reading": "ﾌﾞｸﾞ",
+    "ipa": "bugu",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "耳"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-2b95d12c63d24c19bdb4c2c79f2c70eb",
+    "form": "bogo",
+    "reading": "ﾎﾞｺﾞ",
+    "ipa": "bogo",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "鼻"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-66d83b28ee74492ab43e7ddca54cc045",
+    "form": "bozu",
+    "reading": "ﾎﾞｽﾞ",
+    "ipa": "bozu",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "口",
+      "口腔"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-bcdd41de545645829de203963331c825",
+    "form": "ramo",
+    "reading": "ﾗﾓ",
+    "ipa": "lamo",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "舌"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-728e63b8034342d4ba009f89df2194dc",
+    "form": "mogo",
+    "reading": "ﾓｺﾞ",
+    "ipa": "mogo",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "歯",
+      "牙"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-8699f55b99d54cada319c808027a76bb",
+    "form": "nizi",
+    "reading": "ﾆｼﾞ",
+    "ipa": "nizi",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "首"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-03bb9e22e17f432f8f047c2bf488f0d6",
+    "form": "nezi",
+    "reading": "ﾈｼﾞ",
+    "ipa": "nezi",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "腕"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-9619e308cb7d4f859c92c26a1f5dcf15",
+    "form": "hama",
+    "reading": "ﾊﾏ",
+    "ipa": "hama",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "手"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-d04540a7b59d4664b6a8832f836b50b3",
+    "form": "himos",
+    "reading": "ﾋﾓｽ",
+    "ipa": "himos",
+    "etymology": "",
+    "notes": "",
+    "meanings": [
+      "指"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-16",
     "examples": [
       
     ]

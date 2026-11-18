@@ -38,7 +38,7 @@ function render(){
     const card=el('article',undefined,'word-card');const top=el('div',undefined,'card-top');top.append(posBadge(w.pos),el('span',String(start+i+1).padStart(3,'0'),'word-number'));
     const open=button('','word-open',()=>openWord(w.id));open.append(wordTitle('h3',w.form));open.setAttribute('aria-label',`${w.form} の詳細を開く`);
     const tags=el('div',undefined,'card-tags');w.tags.forEach(t=>tags.append(tagChip(t)));
-    card.append(top,open,el('p',w.ipa?`/${w.ipa}/`:w.reading||'','pronunciation'),el('p',w.meanings.slice(0,2).join(' / ')+(w.meanings.length>2?' …':''),'meaning'),tags);$('cards').append(card);
+    card.append(top,open,el('p',w.ipa?`/${w.ipa}/`:'','pronunciation'),el('p',w.meanings.slice(0,2).join(' / ')+(w.meanings.length>2?' …':''),'meaning'),tags);$('cards').append(card);
   }
   $('active-filters').replaceChildren(...state.tags.map(t=>button('# '+t+' ×','active-filter',()=>toggleTag(t))));
   document.querySelectorAll('.tag-filter').forEach(b=>b.setAttribute('aria-pressed',String(state.tags.includes(b.dataset.tag))));
@@ -56,7 +56,7 @@ function openWord(id,writeURL=true){
   if(!w){state.word='';if($('word-dialog').open)$('word-dialog').close();if(writeURL)syncURL();$('message').textContent='指定された単語は見つかりませんでした。';$('message').hidden=false;return;}
   currentWord=w;state.word=w.id;const body=$('word-body');body.replaceChildren();
   const title=wordTitle('h2',w.form);title.id='word-title';body.append(posBadge(w.pos),title);
-  if(w.ipa||w.reading)body.append(el('p',[w.ipa?`/${w.ipa}/`:'',w.reading].filter(Boolean).join('  ·  '),'pronunciation'));
+  if(w.ipa)body.append(el('p',`/${w.ipa}/`,'pronunciation'));
   const meanings=el('ol');w.meanings.forEach(m=>meanings.append(el('li',m)));body.append(section('意味',meanings));
   if(w.tags.length){const tags=el('div',undefined,'card-tags');w.tags.forEach(t=>tags.append(tagChip(t)));body.append(section('タグ',tags));}
   if(w.examples?.length){const examples=el('div');w.examples.forEach(e=>{const x=el('div',undefined,'example');x.append(el('p',e.text),el('p',e.translation));examples.append(x);});body.append(section('例文',examples));}

@@ -1,6 +1,6 @@
 export const normalize = value => String(value ?? '').normalize('NFKC').toLocaleLowerCase('ja');
 export function prepareWords(words) {
-  return words.map(w => ({...w, _search: normalize([w.form, w.reading, w.ipa, w.pos, ...w.meanings, ...w.tags, w.etymology, w.notes, ...(w.examples ?? []).flatMap(e => [e.text, e.translation])].join(' '))}));
+  return words.map(w => ({...w, _search: normalize([w.form, w.ipa, w.pos, ...w.meanings, ...w.tags, w.etymology, w.notes, ...(w.examples ?? []).flatMap(e => [e.text, e.translation])].join(' '))}));
 }
 export function searchWords(words, state) {
   const tokens = normalize(state.q).trim().split(/\s+/).filter(Boolean);

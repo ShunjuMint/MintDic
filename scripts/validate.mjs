@@ -28,7 +28,7 @@ export function validate(words,config,sentences=[]){
   for(const k of ['meanings','tags']){if(!Array.isArray(w[k]))fail(`${w.id}.${k} は配列にしてください`);w[k].forEach(v=>text(v,`${w.id}.${k}`));}
   if(!w.meanings.length)fail(`${w.id}: 意味を1つ以上登録してください`);
   if(new Set(w.tags).size!==w.tags.length)fail(`${w.id}: 同じタグが重複しています`);
-  for(const k of ['reading','ipa','etymology','notes','updated'])if(w[k]!==undefined&&typeof w[k]!=='string')fail(`${w.id}.${k} は文字列にしてください`);
+  for(const k of ['ipa','etymology','notes','updated'])if(w[k]!==undefined&&typeof w[k]!=='string')fail(`${w.id}.${k} は文字列にしてください`);
   if(w.updated){const d=new Date(w.updated);if(!/^\d{4}-\d{2}-\d{2}$/.test(w.updated)||Number.isNaN(+d)||d.toISOString().slice(0,10)!==w.updated)fail(`${w.id}: updated は実在する YYYY-MM-DD にしてください`);}
   if(w.examples!==undefined){if(!Array.isArray(w.examples))fail(`${w.id}.examples は配列にしてください`);w.examples.forEach(id=>{text(id,`${w.id}.examples の例文ID`);if(!sentenceMap.has(id))fail(`${w.id}: 例文 ${id} が見つかりません`);});if(new Set(w.examples).size!==w.examples.length)fail(`${w.id}: 例文IDが重複しています`);}
   if(w.related!==undefined&&(!Array.isArray(w.related)||w.related.some(id=>typeof id!=='string')))fail(`${w.id}.related はIDの配列にしてください`);

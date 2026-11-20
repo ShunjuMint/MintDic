@@ -2,7 +2,7 @@
    small: 補足 / label: ラベル / body: 本文 / section: 小見出し
    heading: 見出し / word: 単語 / detail: 詳細の単語 / icon: アイコン */
 :root {
-  --font-family-TumRare: "TumRare", "M PLUS 2", sans-serif;
+  --font-family-Tum: "Tum", "M PLUS 2", sans-serif;
   --paper: #fbfdf9;
   --ink: #243119;
   --muted: #667560;
@@ -962,8 +962,8 @@ dialog::backdrop {
    ラテン文字の form を言語文字の字形に置き換えるフォント用です。
    ファイル名を変更する場合は、下記の URL も変更してください。 */
 @font-face {
-  font-family: "TumRare";
-  src: url("./fonts/TumRare.otf?v=3c7f7e2ea6b7") format("opentype");
+  font-family: "Tum";
+  src: url("./fonts/Tum.otf?v=ca29a69988cf") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -971,7 +971,7 @@ dialog::backdrop {
 
 .language-script {
   opacity: 0;
-  font-family: var(--font-family-TumRare);
+  font-family: var(--font-family-Tum);
   /* 文字間隔の追加は標準合字を妨げるため、normal に保ちます。 */
   letter-spacing: normal;
   font-variant-ligatures: common-ligatures contextual;

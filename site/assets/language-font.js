@@ -2,7 +2,7 @@
 export async function loadLanguageFont(fonts = document.fonts, root = document.documentElement) {
   try {
     if (!fonts) return false;
-    const faces = await fonts.load('400 1em "TumRare"', 'tum');
+    const faces = await fonts.load('400 1em "Tum"', 'tum');
     if (!faces.length || !faces.every(face => face.status === 'loaded')) return false;
     root.classList.add('language-font-ready');
     return true;

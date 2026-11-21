@@ -622,5 +622,476 @@
       
     ],
     "ipaManual": false
+  },
+  {
+    "id": "w-169c7c3450954f7fa199fd3fff04a760",
+    "form": "joodi",
+    "ipa": "joːdi",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "友人",
+      "友達"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-6e270fcb7ce74f0fbe39b350be88e1d2",
+    "form": "jarme",
+    "ipa": "jalme",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "敵"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-88a0272685b84470b4e699e458187827",
+    "form": "heup",
+    "ipa": "heup",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "集団",
+      "集まり"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-0986252b4e35411ebf0dee1d18d51e45",
+    "form": "hen",
+    "ipa": "hen",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "家",
+      "住まい",
+      "住処"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-65d0cb9fb3bf4bf1b890b88ac829c8ae",
+    "form": "heuta",
+    "ipa": "heuta",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "村",
+      "集落"
+    ],
+    "tags": [
+      "社会"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-a0b7b8f019a7465eb385385b73c05b71",
+    "form": "noom",
+    "ipa": "noːm",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "体"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-b8473830d5db4e6491e11b8e5e660ce0",
+    "form": "vrat",
+    "ipa": "vlat",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "頭"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-d4741113405c4601ba582320bf437b1f",
+    "form": "vruu",
+    "ipa": "vluː",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "顔"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-8a951c630856452492324c086a469537",
+    "form": "jam",
+    "ipa": "jam",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "眼",
+      "目"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-ab2e3740aa0c4777b72c459de23f30b2",
+    "form": "deim",
+    "ipa": "deim",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "耳"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-11b066ccd9a34df69c987c9438fea8d5",
+    "form": "pseu",
+    "ipa": "pseu",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "鼻"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-6eea29436cb14865996be0b639452803",
+    "form": "soim",
+    "ipa": "soim",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "歯"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-6dba5a04aa414d24b4422dbc1eb114f4",
+    "form": "shou",
+    "ipa": "ʃou",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "牙"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-73be74ba77a4431286ae0727b726222e",
+    "form": "mtuf",
+    "ipa": "mtuf",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "口",
+      "口腔"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-6cad10f5809446a59a6ce15c367951eb",
+    "form": "raus",
+    "ipa": "laus",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "舌"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-291410da378d4fc69da75483b8632412",
+    "form": "tcai",
+    "ipa": "tkai",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "髪",
+      "毛髪"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-83459363236f48b8b16a8ac0a99f913f",
+    "form": "heid",
+    "ipa": "heid",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "首"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-8b74e65fcb144709b24df7cc0530f2d0",
+    "form": "huim",
+    "ipa": "huim",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "腕"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-31898b8afebe41cfa251307486e126e4",
+    "form": "hius",
+    "ipa": "hius",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "脚"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-e4607d10e82e46708c3c7dcb012f3ad1",
+    "form": "niid",
+    "ipa": "niːd",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "手"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-81373b29d2bf42cb94621f2fba80a42c",
+    "form": "niir",
+    "ipa": "niːl",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "足"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-861985771f4a496daa9f4d510c88733f",
+    "form": "feuma",
+    "ipa": "feuma",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "心臓",
+      "心"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-22",
+    "examples": [
+      
+    ]
   }
 ]

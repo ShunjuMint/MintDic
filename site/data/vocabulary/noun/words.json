@@ -7,14 +7,21 @@
     "etymology": "",
     "notes": "",
     "meanings": [
-      "言語"
+      "言語",
+      "トゥム語",
+      "Tum"
     ],
     "tags": [
-      "概念"
+      "概念",
+      "言語"
     ],
-    "related": [],
-    "updated": "2026-11-01",
-    "examples": []
+    "related": [
+      
+    ],
+    "updated": "2026-11-21",
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-bc7480a1b76743aeac971d525b646e8c",
@@ -30,9 +37,13 @@
     "tags": [
       "人称"
     ],
-    "related": [],
+    "related": [
+      
+    ],
     "updated": "2026-11-12",
-    "examples": []
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-5b4fa3a6969f4df2889dc6f42bde4a2f",
@@ -48,9 +59,13 @@
     "tags": [
       "人称"
     ],
-    "related": [],
+    "related": [
+      
+    ],
     "updated": "2026-11-03",
-    "examples": []
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-c41e9eae4b98459c98fbe591a6bca7fc",
@@ -65,9 +80,13 @@
     "tags": [
       "人称"
     ],
-    "related": [],
+    "related": [
+      
+    ],
     "updated": "2026-11-02",
-    "examples": []
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-19a4c0d51fe1473297e042f2c8066ea0",
@@ -82,9 +101,13 @@
     "tags": [
       "数詞"
     ],
-    "related": [],
+    "related": [
+      
+    ],
     "updated": "2026-11-11",
-    "examples": []
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-41645f2e8dd841408cf1f8fd513bce10",
@@ -99,9 +122,13 @@
     "tags": [
       "数詞"
     ],
-    "related": [],
+    "related": [
+      
+    ],
     "updated": "2026-11-11",
-    "examples": []
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-4860f54267fb467387f76c4859b2dcda",
@@ -116,9 +143,13 @@
     "tags": [
       "数詞"
     ],
-    "related": [],
+    "related": [
+      
+    ],
     "updated": "2026-11-11",
-    "examples": []
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-46ed2b36c1fd4daca322c54e39e718c0",
@@ -133,9 +164,13 @@
     "tags": [
       "数詞"
     ],
-    "related": [],
+    "related": [
+      
+    ],
     "updated": "2026-11-11",
-    "examples": []
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-2cdb408bf35d46ac99ef8d631cd3a393",
@@ -150,15 +185,19 @@
     "tags": [
       "数詞"
     ],
-    "related": [],
+    "related": [
+      
+    ],
     "updated": "2026-11-11",
-    "examples": []
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-1955dfa02f5443bdb77494e374f43dc3",
     "form": "jema",
     "reading": "ｾﾞﾏ",
-    "ipa": "zema",
+    "ipa": "jema",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -170,10 +209,11 @@
     "related": [
       
     ],
-    "updated": "2026-11-20",
+    "updated": "2026-11-22",
     "examples": [
       
-    ]
+    ],
+    "ipaManual": false
   },
   {
     "id": "w-d746cb295ce44a9a84f93cbdeb8de884",
@@ -198,9 +238,9 @@
   },
   {
     "id": "w-c5b38bcf30f243fbb38f2899ab20b9b2",
-    "form": "doci",
+    "form": "doc",
     "reading": "ﾄﾞｷﾞ",
-    "ipa": "doki",
+    "ipa": "dok",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -212,10 +252,11 @@
     "related": [
       
     ],
-    "updated": "2026-11-20",
+    "updated": "2026-11-22",
     "examples": [
       
-    ]
+    ],
+    "ipaManual": false
   },
   {
     "id": "w-1aad331374c644b8b8b9616a052321be",
@@ -230,9 +271,13 @@
     "tags": [
       "数詞"
     ],
-    "related": [],
+    "related": [
+      
+    ],
     "updated": "2026-11-11",
-    "examples": []
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-bcc8c0b445994a63844fb52aeee5a29b",
@@ -247,9 +292,13 @@
     "tags": [
       "数詞"
     ],
-    "related": [],
+    "related": [
+      
+    ],
     "updated": "2026-11-11",
-    "examples": []
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-289ba728dbf043c191dc7b1153245f5c",
@@ -264,15 +313,19 @@
     "tags": [
       "数詞"
     ],
-    "related": [],
+    "related": [
+      
+    ],
     "updated": "2026-11-16",
-    "examples": []
+    "examples": [
+      
+    ]
   },
   {
     "id": "w-511c3ab338234be2ad658cbb1a52a705",
-    "form": "tafra",
+    "form": "tsufa",
     "reading": "ｶﾞﾌﾗ",
-    "ipa": "tafla",
+    "ipa": "tsufa",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -284,28 +337,11 @@
     "related": [
       
     ],
-    "updated": "2026-11-20",
+    "updated": "2026-11-22",
     "examples": [
       
-    ]
-  },
-  {
-    "id": "w-e4574cbb8b5f4be5a70b82cac7d3f7ba",
-    "form": "tum",
-    "ipa": "tum",
-    "etymology": "",
-    "notes": "",
-    "meanings": [
-      "Tum",
-      "Tum語",
-      "トゥム語"
     ],
-    "tags": [
-      "言語"
-    ],
-    "related": [],
-    "updated": "2026-11-12",
-    "examples": []
+    "ipaManual": false
   },
   {
     "id": "w-cf8a023577c047c19893438032f04eef",
@@ -372,9 +408,9 @@
   },
   {
     "id": "w-69329b5f878c42febb8774515ae6fa64",
-    "form": "nusep",
+    "form": "scut",
     "reading": "ﾇｾﾌﾟ",
-    "ipa": "nusep",
+    "ipa": "skut",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -387,16 +423,16 @@
     "related": [
       
     ],
-    "updated": "2026-11-18",
+    "updated": "2026-11-21",
     "examples": [
       
     ]
   },
   {
     "id": "w-1e4f9fffbd4348468caaa8ec57115af2",
-    "form": "nedua",
+    "form": "cnai",
     "reading": "ﾈﾄﾞｩｱ",
-    "ipa": "nedua",
+    "ipa": "knai",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -409,16 +445,17 @@
     "related": [
       
     ],
-    "updated": "2026-11-18",
+    "updated": "2026-11-22",
     "examples": [
       
-    ]
+    ],
+    "ipaManual": false
   },
   {
     "id": "w-fed525e9f83c4e848976671ab4e5fd9f",
-    "form": "niman",
+    "form": "cro",
     "reading": "ﾆﾏﾝ",
-    "ipa": "niman",
+    "ipa": "klo",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -431,16 +468,17 @@
     "related": [
       
     ],
-    "updated": "2026-11-18",
+    "updated": "2026-11-22",
     "examples": [
       
-    ]
+    ],
+    "ipaManual": false
   },
   {
     "id": "w-68c91b4cdaf74c0399c66d848c025a61",
-    "form": "fidea",
+    "form": "fait",
     "reading": "ﾌｨﾃﾞｱ",
-    "ipa": "fidea",
+    "ipa": "fait",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -452,16 +490,17 @@
     "related": [
       
     ],
-    "updated": "2026-11-18",
+    "updated": "2026-11-22",
     "examples": [
       
-    ]
+    ],
+    "ipaManual": false
   },
   {
     "id": "w-235fb97705db47819f9c135bae472eea",
-    "form": "cafui",
+    "form": "mtuir",
     "reading": "ﾊﾞﾌｲ",
-    "ipa": "cafui",
+    "ipa": "mtuil",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -474,10 +513,11 @@
     "related": [
       
     ],
-    "updated": "2026-11-20",
+    "updated": "2026-11-22",
     "examples": [
       
-    ]
+    ],
+    "ipaManual": false
   },
   {
     "id": "w-0778adb86a1b4913896afb14b4048af3",
@@ -505,7 +545,7 @@
     "id": "w-67d8243a9cd84d408cfcaf61ea7fcd25",
     "form": "feur",
     "reading": "ﾌｪｳﾗ",
-    "ipa": "feur",
+    "ipa": "feul",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -518,10 +558,11 @@
     "related": [
       
     ],
-    "updated": "2026-11-18",
+    "updated": "2026-11-22",
     "examples": [
       
-    ]
+    ],
+    "ipaManual": false
   },
   {
     "id": "w-1c221262e0ec43828b81cdf47491f297",
@@ -540,10 +581,11 @@
     "related": [
       
     ],
-    "updated": "2026-11-18",
+    "updated": "2026-11-22",
     "examples": [
       
-    ]
+    ],
+    "ipaManual": false
   },
   {
     "id": "w-552a5e236f214a28abf1156a78c7bd2f",
@@ -591,9 +633,9 @@
   },
   {
     "id": "w-0890f7aa94764b79b4af669631a772ee",
-    "form": "rodes",
+    "form": "rovaa",
     "reading": "ﾛｾﾞｽ",
-    "ipa": "rodes",
+    "ipa": "lovaː",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -605,9 +647,10 @@
     "related": [
       
     ],
-    "updated": "2026-11-20",
+    "updated": "2026-11-22",
     "examples": [
       
-    ]
+    ],
+    "ipaManual": false
   }
 ]

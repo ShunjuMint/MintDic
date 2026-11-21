@@ -2,7 +2,6 @@
   {
     "id": "w-6be2efb6e190409cb70680dd5ac65c6b",
     "form": "tum",
-    "reading": "ﾄｩﾑ",
     "ipa": "tum",
     "etymology": "",
     "notes": "",
@@ -26,7 +25,6 @@
   {
     "id": "w-bc7480a1b76743aeac971d525b646e8c",
     "form": "ce",
-    "reading": "ｹ",
     "ipa": "ke",
     "etymology": "",
     "notes": "",
@@ -48,7 +46,6 @@
   {
     "id": "w-5b4fa3a6969f4df2889dc6f42bde4a2f",
     "form": "meu",
-    "reading": "ﾒｳ",
     "ipa": "meu",
     "etymology": "",
     "notes": "",
@@ -70,7 +67,6 @@
   {
     "id": "w-c41e9eae4b98459c98fbe591a6bca7fc",
     "form": "sa",
-    "reading": "ｻ",
     "ipa": "sa",
     "etymology": "",
     "notes": "",
@@ -91,7 +87,6 @@
   {
     "id": "w-19a4c0d51fe1473297e042f2c8066ea0",
     "form": "arum",
-    "reading": "ｱﾙﾑ",
     "ipa": "alum",
     "etymology": "",
     "notes": "",
@@ -112,7 +107,6 @@
   {
     "id": "w-41645f2e8dd841408cf1f8fd513bce10",
     "form": "cas",
-    "reading": "ｶｽ",
     "ipa": "kas",
     "etymology": "",
     "notes": "",
@@ -133,7 +127,6 @@
   {
     "id": "w-4860f54267fb467387f76c4859b2dcda",
     "form": "tvas",
-    "reading": "ﾄｩｳﾞｧｽ",
     "ipa": "tvas",
     "etymology": "",
     "notes": "",
@@ -154,7 +147,6 @@
   {
     "id": "w-46ed2b36c1fd4daca322c54e39e718c0",
     "form": "pris",
-    "reading": "ﾌﾟﾘｽ",
     "ipa": "plis",
     "etymology": "",
     "notes": "",
@@ -175,7 +167,6 @@
   {
     "id": "w-2cdb408bf35d46ac99ef8d631cd3a393",
     "form": "ferii",
-    "reading": "ﾌｪﾘ-",
     "ipa": "feliː",
     "etymology": "",
     "notes": "",
@@ -196,8 +187,12 @@
   {
     "id": "w-1955dfa02f5443bdb77494e374f43dc3",
     "form": "jema",
+<<<<<<< HEAD
     "reading": "ｾﾞﾏ",
     "ipa": "jema",
+=======
+    "ipa": "zema",
+>>>>>>> 1082a4c28127dd844701b7bd34dfe4f09c33fe30
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -218,7 +213,6 @@
   {
     "id": "w-d746cb295ce44a9a84f93cbdeb8de884",
     "form": "somi",
-    "reading": "ｿﾋﾞ",
     "ipa": "somi",
     "etymology": "",
     "notes": "",
@@ -238,9 +232,14 @@
   },
   {
     "id": "w-c5b38bcf30f243fbb38f2899ab20b9b2",
+<<<<<<< HEAD
     "form": "doc",
     "reading": "ﾄﾞｷﾞ",
     "ipa": "dok",
+=======
+    "form": "doci",
+    "ipa": "doki",
+>>>>>>> 1082a4c28127dd844701b7bd34dfe4f09c33fe30
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -261,7 +260,6 @@
   {
     "id": "w-1aad331374c644b8b8b9616a052321be",
     "form": "tori",
-    "reading": "ﾄﾘ",
     "ipa": "toli",
     "etymology": "",
     "notes": "",
@@ -282,7 +280,6 @@
   {
     "id": "w-bcc8c0b445994a63844fb52aeee5a29b",
     "form": "homi",
-    "reading": "ﾎﾐ",
     "ipa": "homi",
     "etymology": "",
     "notes": "",
@@ -303,7 +300,6 @@
   {
     "id": "w-289ba728dbf043c191dc7b1153245f5c",
     "form": "tarma",
-    "reading": "ﾀﾙﾏﾞ",
     "ipa": "talma",
     "etymology": "",
     "notes": "",
@@ -323,9 +319,14 @@
   },
   {
     "id": "w-511c3ab338234be2ad658cbb1a52a705",
+<<<<<<< HEAD
     "form": "tsufa",
     "reading": "ｶﾞﾌﾗ",
     "ipa": "tsufa",
+=======
+    "form": "tafra",
+    "ipa": "tafla",
+>>>>>>> 1082a4c28127dd844701b7bd34dfe4f09c33fe30
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -346,7 +347,6 @@
   {
     "id": "w-cf8a023577c047c19893438032f04eef",
     "form": "tap",
-    "reading": "ﾀﾌﾟ",
     "ipa": "tap",
     "etymology": "",
     "notes": "",
@@ -367,7 +367,6 @@
   {
     "id": "w-5a325020384241b6a556697233f9aa32",
     "form": "tan",
-    "reading": "ﾀﾝ",
     "ipa": "tan",
     "etymology": "",
     "notes": "",
@@ -388,7 +387,6 @@
   {
     "id": "w-7537278bbbab4ee5b504946a037bbbd1",
     "form": "tac",
-    "reading": "ﾀｸﾞ",
     "ipa": "tak",
     "etymology": "",
     "notes": "",
@@ -408,9 +406,14 @@
   },
   {
     "id": "w-69329b5f878c42febb8774515ae6fa64",
+<<<<<<< HEAD
     "form": "scut",
     "reading": "ﾇｾﾌﾟ",
     "ipa": "skut",
+=======
+    "form": "nusep",
+    "ipa": "nusep",
+>>>>>>> 1082a4c28127dd844701b7bd34dfe4f09c33fe30
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -430,9 +433,14 @@
   },
   {
     "id": "w-1e4f9fffbd4348468caaa8ec57115af2",
+<<<<<<< HEAD
     "form": "cnai",
     "reading": "ﾈﾄﾞｩｱ",
     "ipa": "knai",
+=======
+    "form": "nedua",
+    "ipa": "nedua",
+>>>>>>> 1082a4c28127dd844701b7bd34dfe4f09c33fe30
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -453,9 +461,14 @@
   },
   {
     "id": "w-fed525e9f83c4e848976671ab4e5fd9f",
+<<<<<<< HEAD
     "form": "cro",
     "reading": "ﾆﾏﾝ",
     "ipa": "klo",
+=======
+    "form": "niman",
+    "ipa": "niman",
+>>>>>>> 1082a4c28127dd844701b7bd34dfe4f09c33fe30
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -476,9 +489,14 @@
   },
   {
     "id": "w-68c91b4cdaf74c0399c66d848c025a61",
+<<<<<<< HEAD
     "form": "fait",
     "reading": "ﾌｨﾃﾞｱ",
     "ipa": "fait",
+=======
+    "form": "fidea",
+    "ipa": "fidea",
+>>>>>>> 1082a4c28127dd844701b7bd34dfe4f09c33fe30
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -498,9 +516,14 @@
   },
   {
     "id": "w-235fb97705db47819f9c135bae472eea",
+<<<<<<< HEAD
     "form": "mtuir",
     "reading": "ﾊﾞﾌｲ",
     "ipa": "mtuil",
+=======
+    "form": "cafui",
+    "ipa": "cafui",
+>>>>>>> 1082a4c28127dd844701b7bd34dfe4f09c33fe30
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -522,7 +545,6 @@
   {
     "id": "w-0778adb86a1b4913896afb14b4048af3",
     "form": "tuup",
-    "reading": "ﾄｩｰﾌﾟ",
     "ipa": "tuːp",
     "etymology": "",
     "notes": "",
@@ -544,8 +566,12 @@
   {
     "id": "w-67d8243a9cd84d408cfcaf61ea7fcd25",
     "form": "feur",
+<<<<<<< HEAD
     "reading": "ﾌｪｳﾗ",
     "ipa": "feul",
+=======
+    "ipa": "feur",
+>>>>>>> 1082a4c28127dd844701b7bd34dfe4f09c33fe30
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -567,7 +593,6 @@
   {
     "id": "w-1c221262e0ec43828b81cdf47491f297",
     "form": "sip",
-    "reading": "ｼﾌﾟ",
     "ipa": "sip",
     "etymology": "",
     "notes": "",
@@ -590,7 +615,6 @@
   {
     "id": "w-552a5e236f214a28abf1156a78c7bd2f",
     "form": "nac",
-    "reading": "ﾅｸ",
     "ipa": "nak",
     "etymology": "",
     "notes": "",
@@ -612,7 +636,6 @@
   {
     "id": "w-a264baa1bab44702b1757b5265b41458",
     "form": "fei",
-    "reading": "ﾌｪｲ",
     "ipa": "fei",
     "etymology": "",
     "notes": "",
@@ -633,9 +656,14 @@
   },
   {
     "id": "w-0890f7aa94764b79b4af669631a772ee",
+<<<<<<< HEAD
     "form": "rovaa",
     "reading": "ﾛｾﾞｽ",
     "ipa": "lovaː",
+=======
+    "form": "rodes",
+    "ipa": "rodes",
+>>>>>>> 1082a4c28127dd844701b7bd34dfe4f09c33fe30
     "etymology": "",
     "notes": "",
     "meanings": [

@@ -3,20 +3,20 @@
    heading: 見出し / word: 単語 / detail: 詳細の単語 / icon: アイコン */
 :root {
   --font-family-Tum: "Tum", "M PLUS 2", sans-serif;
-  --paper: #fbfdf9;
-  --ink: #243119;
-  --muted: #667560;
-  --green: #629460;
-  --line: #dce8d8;
-  --soft: #c9f2c7;
+  --paper: #F7F9F5;
+  --ink: #26382E;
+  --muted: #617064;
+  --green: #365847;
+  --line: #C7D3C1;
+  --soft: #E6EDE2;
   --white: #ffffff;
   font-family: "M PLUS 2","Noto Sans JP","Segoe UI",Meiryo,sans-serif;
   color: var(--ink);
   background: var(--paper);
   font-synthesis: none;
-  --accent: #aceca1;
-  --border-accent: #96be8c;
-  --hover: #eef9eb;
+  --accent: #CBDCC8;
+  --border-accent: #A7B9A3;
+  --hover: #EFF3ED;
   --font-size-small: 0.8125rem;
   --font-size-label: 0.875rem;
   --font-size-body: 1rem;
@@ -1017,3 +1017,78 @@ dialog::backdrop {
 #word-title {
   padding-top: var(--font-size-romanization-detail);
 }
+
+/* 辞書・文法書の相互リンクで共通の表示 */
+header nav .site-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1px solid var(--border-accent);
+  border-radius: 6px;
+  background: var(--hover);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: nowrap;
+  text-decoration: none;
+}
+header nav .site-switch:hover {
+  background: var(--soft);
+  color: var(--ink);
+  border-color: var(--green);
+  text-decoration: none;
+}
+header nav .site-switch:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 3px;
+}
+.site-switch svg {
+  width: 16px;
+  height: 16px;
+  flex: none;
+}
+@media (max-width: 700px) {
+  header {
+    height: auto;
+    min-height: 76px;
+    padding: 16px 20px;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+  }
+  header nav {
+    flex-wrap: wrap;
+    gap: 8px 16px;
+  }
+}
+
+/* 章・節・項の見出し */
+.markdown-body h1, #word-title {
+  background: var(--green);
+  color: var(--white);
+  border-radius: 4px;
+  padding: .55em .8em;
+}
+.markdown-body h1 .romanization, #word-title .romanization { color: var(--white); }
+.markdown-body h2, .detail-section h3 {
+  border: 0;
+  border-inline-start: 4px solid var(--green);
+  border-radius: 2px;
+  background: var(--soft);
+  color: var(--ink);
+  padding: .5em .8em;
+}
+.markdown-body h3 {
+  background: var(--paper);
+  color: var(--ink);
+  border-bottom: 1px solid #68836B;
+  padding: .45em .65em;
+}
+.markdown-body :is(h1,h2,h3):has(ruby) { padding-block-start: 1.1em; }
+#word-title { margin-top: .5rem; padding-top: calc(var(--font-size-romanization-detail) + .4em); }
+.detail-section { border-top: 0; padding-top: 0; }
+.detail-section h3 { font-size: var(--font-size-label); letter-spacing: normal; }

@@ -1093,5 +1093,587 @@
     "examples": [
       
     ]
+  },
+  {
+    "id": "w-761ae42d94ca48e2914094a32b8035fd",
+    "form": "faus",
+    "ipa": "faus",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "血",
+      "血液"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-23",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-be03443c338d4d0aa15ff4875f729905",
+    "form": "faar",
+    "ipa": "faːl",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "骨"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-23",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-43563e726c8c4c2c8a6ab34eec5a5e92",
+    "form": "feem",
+    "ipa": "feːm",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "皮膚"
+    ],
+    "tags": [
+      "身体"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-23",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-a77d48b760a443c3aff6af74338745dd",
+    "form": "jom",
+    "ipa": "jom",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "太陽",
+      "恒星",
+      "星"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-168100d08a1b43b49fb8a510792a2420",
+    "form": "jaif",
+    "ipa": "jaif",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "月",
+      "衛星"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-23",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-25ada0fd0a734c66b0eb5326c80fadff",
+    "form": "doim",
+    "ipa": "doim",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "空"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-ac3c2b1b1b85436db77210e6ba9f104b",
+    "form": "seer",
+    "ipa": "seːl",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "雲"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-ceab4a6d53c04f479a650b3c40772229",
+    "form": "scuur",
+    "ipa": "skuːl",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "雨"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-a2d0291ffd0d4b66abaa8aaa26fc6824",
+    "form": "staac",
+    "ipa": "staːk",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "雪",
+      "積雪"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-52ac968e29cd45e78aa5d4358765fc9c",
+    "form": "sheun",
+    "ipa": "ʃeun",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "水"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-b60fd642456d431eb772ea2cf492551d",
+    "form": "shuis",
+    "ipa": "ʃuis",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "氷"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-67a4f2615fb8478f85a47827e82eeb6a",
+    "form": "fuus",
+    "ipa": "fuːs",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "風"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-c4790d10ca444044a64e66eec5e7e681",
+    "form": "pram",
+    "ipa": "plam",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "炎",
+      "火"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-44f882c226724c908e01b861bff836fa",
+    "form": "dees",
+    "ipa": "deːs",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "土"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-04e816a693094fe08cd27c6f50c9c8a7",
+    "form": "coun",
+    "ipa": "koun",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "石",
+      "岩"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-a37f52f3cb934f418f56e4a73d8a65dc",
+    "form": "mtup",
+    "ipa": "mtup",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "山",
+      "山脈"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-edc90cbc08344794b2981b09bf741db9",
+    "form": "shat",
+    "ipa": "ʃat",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "川",
+      "河川"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-2e13c446691246738b9559cad5e0f5e7",
+    "form": "shai",
+    "ipa": "ʃai",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "淡水湖",
+      "池"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-08aec30d64134d1caf5ff46761663011",
+    "form": "spaid",
+    "ipa": "spaid",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "海",
+      "塩湖"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-5e8df8a670f04d9187746a4a2addb70a",
+    "form": "viut",
+    "ipa": "viut",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "木",
+      "樹木"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-27794fd0b79141749eeb957e5904a0d6",
+    "form": "vreus",
+    "ipa": "vleus",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "林",
+      "森"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-7c2ae2268473481eb7dc431db0ea3f02",
+    "form": "cum",
+    "ipa": "kum",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "草"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-08f86241277240518c54cc145318da90",
+    "form": "starc",
+    "ipa": "stalk",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "溶けかかった雪",
+      "水混じりの雪",
+      "みぞれ"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-35251900906a484c928bf81c0ec675a3",
+    "form": "dem",
+    "ipa": "dem",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "雷"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-090e0ba873c545de8aa705d459f2abd9",
+    "form": "stuuna",
+    "ipa": "stuːna",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "雹"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-d20e93660c4647238be56907c3d20e29",
+    "form": "sperc",
+    "ipa": "spelk",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "吹雪"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-0f76abf3718247a5a3441d6078c8948a",
+    "form": "sparece",
+    "ipa": "spaleke",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "激しく強い吹雪"
+    ],
+    "tags": [
+      
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-26",
+    "examples": [
+      
+    ]
   }
 ]

@@ -34,10 +34,11 @@
     "related": [
       
     ],
-    "updated": "2026-11-04",
+    "updated": "2026-11-23",
     "examples": [
       
-    ]
+    ],
+    "ipaManual": false
   },
   {
     "id": "w-5b911bb70dca449b8ed32967e1d6a76c",
@@ -61,8 +62,8 @@
   },
   {
     "id": "w-b4877872e9574edb82ef9c0378e94453",
-    "form": "vir",
-    "ipa": "vil",
+    "form": "vur",
+    "ipa": "vul",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -74,7 +75,7 @@
     "related": [
       
     ],
-    "updated": "2026-11-22",
+    "updated": "2026-11-23",
     "examples": [
       
     ],
@@ -135,7 +136,7 @@
     "related": [
       
     ],
-    "updated": "2026-11-22",
+    "updated": "2026-11-23",
     "examples": [
       
     ],
@@ -143,8 +144,8 @@
   },
   {
     "id": "w-28f06a44bd844c2983123a45719cb9d3",
-    "form": "pur",
-    "ipa": "pul",
+    "form": "pus",
+    "ipa": "pus",
     "etymology": "",
     "notes": "",
     "meanings": [
@@ -156,7 +157,7 @@
     "related": [
       
     ],
-    "updated": "2026-11-22",
+    "updated": "2026-11-23",
     "examples": [
       
     ],

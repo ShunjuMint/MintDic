@@ -1675,5 +1675,463 @@
     "examples": [
       
     ]
+  },
+  {
+    "id": "w-547f7afbbbbd4aea9664f41e9d500ec2",
+    "form": "rmo",
+    "ipa": "lmo",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "動物"
+    ],
+    "tags": [
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-392f9310a9284b21aeefe273305364ae",
+    "form": "vrauc",
+    "ipa": "vlauk",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "植物"
+    ],
+    "tags": [
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-74183a2099344ee0bfc8613c837e38a9",
+    "form": "puif",
+    "ipa": "puif",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "魚",
+      "魚類"
+    ],
+    "tags": [
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-cb84f564c10f480d84fd8c42cd729f84",
+    "form": "faup",
+    "ipa": "faup",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "虫"
+    ],
+    "tags": [
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-3ebe70ed4d264871812eceeb5bb0d80b",
+    "form": "cium",
+    "ipa": "kium",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "鳥",
+      "鳥類"
+    ],
+    "tags": [
+      "自然"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-bf1d9e22cf224bdda5e7e5f519246370",
+    "form": "niscun",
+    "ipa": "niskun",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "爬虫類"
+    ],
+    "tags": [
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-62ff76cd4720406c8e35924ba5de2677",
+    "form": "memtus",
+    "ipa": "memtus",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "哺乳類"
+    ],
+    "tags": [
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-17a88ecba21641f6b5453dfc948cf670",
+    "form": "rpeitvas",
+    "ipa": "lpeitvas",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "両生類"
+    ],
+    "tags": [
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-a25520617d384a3dbd06a3907d74e774",
+    "form": "jaap",
+    "ipa": "jaːp",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "葉っぱ"
+    ],
+    "tags": [
+      "自然",
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-c5562157f82e483682fb1805394636c9",
+    "form": "feen",
+    "ipa": "feːn",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "花"
+    ],
+    "tags": [
+      "自然",
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-94693703fe0a48358c2aca9aa7d25f6b",
+    "form": "jaat",
+    "ipa": "jaːt",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "果実"
+    ],
+    "tags": [
+      
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-bc115ec8e59b4603b097635a08ae4d47",
+    "form": "doip",
+    "ipa": "doip",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "種"
+    ],
+    "tags": [
+      "自然",
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-e25bb060a2fb44fe9b7c96ebd6977752",
+    "form": "mtuup",
+    "ipa": "mtuːp",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "肉"
+    ],
+    "tags": [
+      "自然",
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-aaa76ed189d645c29a68b805a564e4f7",
+    "form": "vroic",
+    "ipa": "vloik",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "茎"
+    ],
+    "tags": [
+      "自然",
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-20bf149bfdbe4db79a992ddfe752b969",
+    "form": "vin",
+    "ipa": "vin",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "根"
+    ],
+    "tags": [
+      "自然",
+      "生物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-6147f1244f90400081f84966c602d26f",
+    "form": "cveen",
+    "ipa": "kveːn",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "蔓",
+      "つる植物"
+    ],
+    "tags": [
+      "自然",
+      "生物",
+      "植物"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-bea0c2ff1bd340fc815907e93d5f0093",
+    "form": "smar",
+    "ipa": "smal",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "卵"
+    ],
+    "tags": [
+      "自然",
+      "生物",
+      "食品"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-2ce5b8a58259434497f9cbc1a0385e69",
+    "form": "urof",
+    "ipa": "ulof",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "植物油",
+      "植物性の液体の油"
+    ],
+    "tags": [
+      "食品"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-ed7eafd3804b4e2aad24afd70ce04207",
+    "form": "uriup",
+    "ipa": "uliup",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "植物性脂肪",
+      "マーガリン"
+    ],
+    "tags": [
+      "食品"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-de9fdb5cc03c437189178a7eaae7f4b8",
+    "form": "omtei",
+    "ipa": "omtei",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "動物油",
+      "動物性の液体の油"
+    ],
+    "tags": [
+      "食品"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
+  },
+  {
+    "id": "w-a41f776df7314af7a9edb818a8895e91",
+    "form": "emoim",
+    "ipa": "emoim",
+    "etymology": "",
+    "notes": "",
+    "ipaManual": false,
+    "meanings": [
+      "動物性脂肪",
+      "バター"
+    ],
+    "tags": [
+      "食品"
+    ],
+    "related": [
+      
+    ],
+    "updated": "2026-11-27",
+    "examples": [
+      
+    ]
   }
 ]
